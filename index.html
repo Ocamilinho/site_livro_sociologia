@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/conteudo.css">
+    <link rel="stylesheet" href="css/exercicios.css">
+    <link rel="stylesheet" href="css/principal.css">
+    <title>SJSXII</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <input type="checkbox" name="" id="check">
+            
+            <div class="logo-container">
+                <a href="index.html" class="logo"><h3 class="logo">SJS<span>XXI</span></h3></a>
+            </div>
+
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link" style="--i: .6s">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="nav-link" style="--i: .85s">
+                            <a href="#">Unidades<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="SecondPages/sum1.html">Unidade 1</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="SecondPages/sum2.html">Unidade 2</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="SecondPages/sum3.html">Unidade 3</a>
+                                    </li>
+                                        <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Exercícios<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="SecondPages/ExerUnid1.html">Unidade 1</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="SecondPages/ExerUnid2.html">Unidade 2</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="SecondPages/ExerUnid3.html">Unidade 3</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.35s">
+                            <a href="mailto:rcesarrc@gmail.com?subject=SJSXXI&body=Olá, gostaria de falar sobre o livro!" target="_blank">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                
+
+            </div>
+
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="cor2"></div>
+    <div id="cor1"></div>
+    
+    
+    
+        
+        
+    
+        
+        
+    <main class="princ">
+     
+
+        <main class="slider">
+            <div class="seta arrow-left"><i class="fas fa-chevron-circle-left"></i></div>
+            <img src="images/slide_deco.webp" alt="slide-1.jpg">
+            <img src="images/Ciade More.jpg" alt="slide-2.jpg">
+            <img src="images/Favela do Rio.jpg" alt="slide-3.jpg">
+            <img src="images/Mangueira,_Rio_de_Janeiro_-_State_of_Rio_de_Janeiro,_Brazil_-_panoramio_(1).jpg" alt="slide-4.jpg">
+            <div class="seta arrow-right"><i class="fas fa-chevron-circle-right"></i></div>
+            <div class="paginacao">
+          
+              <div class="botao"> <i class="far fa-circle"></i> </div>
+              <div class="botao"> <i class="far fa-circle"></i> </div>
+              <div class="botao"> <i class="far fa-circle"></i> </div>
+              <div class="botao"> <i class="far fa-circle"></i> </div>
+          
+            </div>
+          
+        </main>
+    
+            
+            
+
+        
+        <script>
+            function redirect(link){
+                window.location.href= link;
+            }
+            function down() {
+                // Crie um link temporário (anchor)
+                var link = document.createElement('a');
+                link.href = 'LivroProfessor.pdf';
+                link.download = 'LivroProfessor.pdf';
+
+                // Adicione o link ao corpo do documento
+                document.body.appendChild(link);
+
+                // Simule um clique no link para iniciar o download
+                link.click();
+
+                // Remova o link do corpo do documento
+                document.body.removeChild(link);
+            };
+        </script>
+        <div class="cards">
+            <div class="card" onclick="redirect('SecondPages/sum1.html')">
+                <a href="SecondPages/sum1.html">
+                <div class="cont-card">
+                    <div class="card-pic">
+                        <svg fill="" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>book</title> <path fill="#27315d" fill-rule="evenodd" d="M28.25 2c-0-0.69-0.56-1.25-1.25-1.25h-19.8c-0.028-0.001-0.061-0.001-0.093-0.001-1.817 0-3.297 1.443-3.357 3.246l-0 0.005v24.389c0.114 1.606 1.445 2.867 3.070 2.867 0.063 0 0.126-0.002 0.188-0.006l-0.009 0h20c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0h-19.8c-0.024 0.002-0.051 0.004-0.079 0.004-0.441 0-0.807-0.325-0.871-0.749l-0.001-0.005v-1.223c0-0.090 0.266-0.361 0.746-0.361l20.004 0.057c0 0 0 0 0.001 0 0.515 0 0.956-0.311 1.148-0.756l0.003-0.008 0.007-0.034c0.056-0.132 0.089-0.286 0.092-0.447v-0.001l-0-0.002 0-0.002zM25.75 23.969l-14.5-0.041v-20.678h14.5zM6.25 24v-20c0.064-0.429 0.43-0.754 0.871-0.754 0.028 0 0.055 0.001 0.082 0.004l-0.003-0h1.55v20.671l-1.75-0.005c-0.267 0.002-0.525 0.033-0.774 0.089l0.024-0.005zM14 8.25h9c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0h-9c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0zM23 9.75h-9c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h9c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0z"></path> </g></svg>
+                    </div>
+                    <div class="info-card">
+                        <div class="title-card">Unidade 1</div>
+                        <div class="sub-card">
+                            <p>Sociologia e Conhecimento Socilógico</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            </div>
+    
+            <div class="card" onclick="redirect('SecondPages/sum2.html')">
+                <div class="cont-card">
+                    <div class="card-pic">
+                        <svg fill="" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>book</title> <path fill="#27315d" fill-rule="evenodd" d="M28.25 2c-0-0.69-0.56-1.25-1.25-1.25h-19.8c-0.028-0.001-0.061-0.001-0.093-0.001-1.817 0-3.297 1.443-3.357 3.246l-0 0.005v24.389c0.114 1.606 1.445 2.867 3.070 2.867 0.063 0 0.126-0.002 0.188-0.006l-0.009 0h20c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0h-19.8c-0.024 0.002-0.051 0.004-0.079 0.004-0.441 0-0.807-0.325-0.871-0.749l-0.001-0.005v-1.223c0-0.090 0.266-0.361 0.746-0.361l20.004 0.057c0 0 0 0 0.001 0 0.515 0 0.956-0.311 1.148-0.756l0.003-0.008 0.007-0.034c0.056-0.132 0.089-0.286 0.092-0.447v-0.001l-0-0.002 0-0.002zM25.75 23.969l-14.5-0.041v-20.678h14.5zM6.25 24v-20c0.064-0.429 0.43-0.754 0.871-0.754 0.028 0 0.055 0.001 0.082 0.004l-0.003-0h1.55v20.671l-1.75-0.005c-0.267 0.002-0.525 0.033-0.774 0.089l0.024-0.005zM14 8.25h9c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0h-9c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0zM23 9.75h-9c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h9c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0z"></path> </g></svg>
+                    </div>
+                    <div class="info-card">
+                        <div class="title-card">Unidade 2</div>
+                        <div class="sub-card">
+                            <p>Trabalho, Política e Sociedade</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card" onclick="redirect('SecondPages/sum3.html')">
+                <div class="cont-card">
+                    <div class="card-pic">
+                        <svg fill="" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>book</title> <path fill="#27315d" fill-rule="evenodd" d="M28.25 2c-0-0.69-0.56-1.25-1.25-1.25h-19.8c-0.028-0.001-0.061-0.001-0.093-0.001-1.817 0-3.297 1.443-3.357 3.246l-0 0.005v24.389c0.114 1.606 1.445 2.867 3.070 2.867 0.063 0 0.126-0.002 0.188-0.006l-0.009 0h20c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0h-19.8c-0.024 0.002-0.051 0.004-0.079 0.004-0.441 0-0.807-0.325-0.871-0.749l-0.001-0.005v-1.223c0-0.090 0.266-0.361 0.746-0.361l20.004 0.057c0 0 0 0 0.001 0 0.515 0 0.956-0.311 1.148-0.756l0.003-0.008 0.007-0.034c0.056-0.132 0.089-0.286 0.092-0.447v-0.001l-0-0.002 0-0.002zM25.75 23.969l-14.5-0.041v-20.678h14.5zM6.25 24v-20c0.064-0.429 0.43-0.754 0.871-0.754 0.028 0 0.055 0.001 0.082 0.004l-0.003-0h1.55v20.671l-1.75-0.005c-0.267 0.002-0.525 0.033-0.774 0.089l0.024-0.005zM14 8.25h9c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0h-9c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0zM23 9.75h-9c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h9c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0z"></path> </g></svg>
+                    </div>
+                    <div class="info-card">
+                        <div class="title-card">Unidade 3</div>
+                        <div class="sub-card">
+                            <p>Relações Sociais Contemporâneas</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="card" onclick="redirect('SecondPages/ExerUnid1.html')">
+                <div class="cont-card">
+                    <div class="card-pic">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M19.186 2.09c.521.25 1.136.612 1.625 1.101.49.49.852 1.104 1.1 1.625.313.654.11 1.408-.401 1.92l-7.214 7.213c-.31.31-.688.541-1.105.675l-4.222 1.353a.75.75 0 0 1-.943-.944l1.353-4.221a2.75 2.75 0 0 1 .674-1.105l7.214-7.214c.512-.512 1.266-.714 1.92-.402zm.211 2.516a3.608 3.608 0 0 0-.828-.586l-6.994 6.994a1.002 1.002 0 0 0-.178.241L9.9 14.102l2.846-1.496c.09-.047.171-.107.242-.178l6.994-6.994a3.61 3.61 0 0 0-.586-.828zM4.999 5.5A.5.5 0 0 1 5.47 5l5.53.005a1 1 0 0 0 0-2L5.5 3A2.5 2.5 0 0 0 3 5.5v12.577c0 .76.082 1.185.319 1.627.224.419.558.754.977.978.442.236.866.318 1.627.318h12.154c.76 0 1.185-.082 1.627-.318.42-.224.754-.559.978-.978.236-.442.318-.866.318-1.627V13a1 1 0 1 0-2 0v5.077c0 .459-.021.571-.082.684a.364.364 0 0 1-.157.157c-.113.06-.225.082-.684.082H5.923c-.459 0-.57-.022-.684-.082a.363.363 0 0 1-.157-.157c-.06-.113-.082-.225-.082-.684V5.5z" fill="#27315d"></path></g></svg>
+                    </div>
+                    <div class="info-card">
+                        <div class="title-card">Exercícios</div>
+                        <div class="sub-card">
+                            <p>Coletânea de questões para praticar</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="card" onclick="down()">
+                <div class="cont-card">
+                        <div class="card-pic">
+                            <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#27315d" fill-rule="evenodd" d="M11 2a1 1 0 10-2 0v4.773l-2.836-2.52a1 1 0 10-1.328 1.494l4.5 4a1 1 0 001.328 0l4.5-4a1 1 0 00-1.328-1.494L11 6.773V2zM3.447 12a125.965 125.965 0 01-.35 4.99v.004a.013.013 0 00.005.006h13.796l.002-.002.003-.004v-.003a125.829 125.829 0 01-.35-4.991h-1.49a1 1 0 00-.829.44l-.81 1.201a3 3 0 01-2.487 1.322H9.063a3 3 0 01-2.487-1.322l-.81-1.2A1 1 0 004.937 12h-1.49zM18.5 10h-3.437a3 3 0 00-2.487 1.322l-.81 1.2a1 1 0 01-.829.441H9.063a1 1 0 01-.829-.44l-.81-1.201A3 3 0 004.937 10H1.5c0 2.032-.248 5.155-.395 6.815A2.008 2.008 0 003.103 19h13.794a2.008 2.008 0 001.998-2.185c-.147-1.66-.395-4.783-.395-6.815z"></path> </g></svg>
+                        </div>
+                        <div class="info-card">
+                           
+
+                                <div class="title-card down-title ">Download</div>
+                                <div class="sub-card down-desc">
+                                <p>Baixe nosso livro completo aqui:</p>
+                                <a class="down" href="LivroProfessor.pdf" download>
+                                    <button id="down-btn">
+                                            <p>Download</p> 
+                                            
+                                            <div id="arrow-button">
+                                                <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 10h16m0 0l-7-7m7 7l-7 7"></path> </g></svg>
+                                            </div>
+                                            
+                                            <div class="hover-button"></div>
+                                        </button>  
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="mob-cards">
+            <div class="mob-conteiner">
+                <a href="SecondPages/sum1.html">
+                    <div id="uni-1" class="uni">
+                        <div class="sub-uni">
+                            <svg fill="" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>book</title> <path fill="#ffffff" fill-rule="evenodd" d="M28.25 2c-0-0.69-0.56-1.25-1.25-1.25h-19.8c-0.028-0.001-0.061-0.001-0.093-0.001-1.817 0-3.297 1.443-3.357 3.246l-0 0.005v24.389c0.114 1.606 1.445 2.867 3.070 2.867 0.063 0 0.126-0.002 0.188-0.006l-0.009 0h20c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0h-19.8c-0.024 0.002-0.051 0.004-0.079 0.004-0.441 0-0.807-0.325-0.871-0.749l-0.001-0.005v-1.223c0-0.090 0.266-0.361 0.746-0.361l20.004 0.057c0 0 0 0 0.001 0 0.515 0 0.956-0.311 1.148-0.756l0.003-0.008 0.007-0.034c0.056-0.132 0.089-0.286 0.092-0.447v-0.001l-0-0.002 0-0.002zM25.75 23.969l-14.5-0.041v-20.678h14.5zM6.25 24v-20c0.064-0.429 0.43-0.754 0.871-0.754 0.028 0 0.055 0.001 0.082 0.004l-0.003-0h1.55v20.671l-1.75-0.005c-0.267 0.002-0.525 0.033-0.774 0.089l0.024-0.005zM14 8.25h9c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0h-9c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0zM23 9.75h-9c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h9c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0z"></path> </g></svg>
+                        </div>
+                        <p> Unidade 1 </p>
+                    </div>
+                </a>
+                <a href="SecondPages/sum2.html">
+                    <div id="uni-2" class="uni">
+                        <div class="sub-uni">
+                            <svg fill="" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>book</title> <path fill="#ffffff" fill-rule="evenodd" d="M28.25 2c-0-0.69-0.56-1.25-1.25-1.25h-19.8c-0.028-0.001-0.061-0.001-0.093-0.001-1.817 0-3.297 1.443-3.357 3.246l-0 0.005v24.389c0.114 1.606 1.445 2.867 3.070 2.867 0.063 0 0.126-0.002 0.188-0.006l-0.009 0h20c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0h-19.8c-0.024 0.002-0.051 0.004-0.079 0.004-0.441 0-0.807-0.325-0.871-0.749l-0.001-0.005v-1.223c0-0.090 0.266-0.361 0.746-0.361l20.004 0.057c0 0 0 0 0.001 0 0.515 0 0.956-0.311 1.148-0.756l0.003-0.008 0.007-0.034c0.056-0.132 0.089-0.286 0.092-0.447v-0.001l-0-0.002 0-0.002zM25.75 23.969l-14.5-0.041v-20.678h14.5zM6.25 24v-20c0.064-0.429 0.43-0.754 0.871-0.754 0.028 0 0.055 0.001 0.082 0.004l-0.003-0h1.55v20.671l-1.75-0.005c-0.267 0.002-0.525 0.033-0.774 0.089l0.024-0.005zM14 8.25h9c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0h-9c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0zM23 9.75h-9c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h9c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0z"></path> </g></svg>
+                        </div>
+                        <p> Unidade 2 </p>
+                    </div>
+                </a>
+                <a href="SecondPages/sum3.html">
+                    <div id="uni-3" class="uni">
+                        <div class="sub-uni">
+                            <svg fill="" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>book</title> <path fill="#ffffff" fill-rule="evenodd" d="M28.25 2c-0-0.69-0.56-1.25-1.25-1.25h-19.8c-0.028-0.001-0.061-0.001-0.093-0.001-1.817 0-3.297 1.443-3.357 3.246l-0 0.005v24.389c0.114 1.606 1.445 2.867 3.070 2.867 0.063 0 0.126-0.002 0.188-0.006l-0.009 0h20c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0h-19.8c-0.024 0.002-0.051 0.004-0.079 0.004-0.441 0-0.807-0.325-0.871-0.749l-0.001-0.005v-1.223c0-0.090 0.266-0.361 0.746-0.361l20.004 0.057c0 0 0 0 0.001 0 0.515 0 0.956-0.311 1.148-0.756l0.003-0.008 0.007-0.034c0.056-0.132 0.089-0.286 0.092-0.447v-0.001l-0-0.002 0-0.002zM25.75 23.969l-14.5-0.041v-20.678h14.5zM6.25 24v-20c0.064-0.429 0.43-0.754 0.871-0.754 0.028 0 0.055 0.001 0.082 0.004l-0.003-0h1.55v20.671l-1.75-0.005c-0.267 0.002-0.525 0.033-0.774 0.089l0.024-0.005zM14 8.25h9c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0h-9c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0zM23 9.75h-9c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h9c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0z"></path> </g></svg>
+                        </div>
+                        <p> Unidade 3 </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="title-princ">
+            <div class="princ-cont">
+                <div id="block-01">
+                    <div id="div-01">
+                        <p>Sociologia</p>
+                        <p>para</p>
+                        <p>Jovens</p>
+                    </div>
+
+                    <div id="div-02">
+                        <p>DO SÉCULO</p>
+                    </div>
+                </div>
+                <div id="block-02">
+                    <p>X</p> 
+                    <p>X</p> 
+                    <p>I</p> 
+                </div>
+                
+            </div>
+        </div>
+        <div class="intro">
+            <div class="intro-title"><p>│</p> INTRODUÇÃO</div>
+            <div class="intro-cont">
+                
+                <div class="text intro-text">
+                    <div class="intro-img">
+                        <img src="images/capa.webp" alt="">
+                    </div>
+                    <p>Certa vez, um grande sociólogo francês, chamado Pierre Bourdieu, disse que a Sociologia é “um esporte de combate”. Como assim? Ele era um intelectual que gostava de debater suas ideias, sempre pronto para defendê-las em meio a diferentes públicos. A ideia de “esporte de combate” significava, para Bourdieu, que a Sociologia deveria fazer com que as pessoas entendessem as origens das desigualdades e das violências de diversos tipos. Mas isto não bastava: devia-se reagir, buscando uma saída. </p>
+                    <p>Este livro de Sociologia está imbuído desse espírito. Abrir um diálogo com um grande público – os jovens brasileiros do século XXI – e buscar outra visão além do que chamamos de senso comum, ou seja, precisamos compreender e superar as ideias que se baseiam na aparência das coisas, sem uma reflexão mais apurada. </p>
+                    <p>Para nós, os autores, a Sociologia tem como princípio dar conta de duas tarefas que julgamos fundamentais: problematizar as opiniões que predominam no cotidiano e, ao mesmo tempo, desnaturalizar a realidade social. Isto significa que as ideias sobre a vida social dos indivíduos devem ser pensadas a partir de um estudo criterioso, com base científica. Todos nós, em geral, temos as opiniões mais diversas, sobre as relações entre as pessoas, as instituições, a cultura, a economia, a política etc. Mas será que somente as opiniões das pessoas, sem um estudo minimamente criterioso, refletem a realidade da vida social? Como dizia o poeta e dramaturgo alemão Bertold Brecht: “nada deve parecer natural”.</p>
+                    <p>Este livro apresenta diversos temas, conceitos e teorias estudados e pesquisados pela Sociologia. Queremos apresentar aos jovens conteúdos que construam um saber crítico, dinâmico e problematizador das noções do senso comum. Crítico, porque visa a inserção consciente dos jovens no mundo à sua volta dinâmico, por incentivar a participação política e social consciente na realidade social brasileira; e, por fim, problematizador, por questionar os discursos naturalizadores de uma realidade social marcada por profundos problemas éticos, sociais e econômicos.</p>
+                    <p>Os capítulos do livro começam com a apresentação de fatos e ideias da vida cotidiana. Os conceitos sociológicos são introduzidos e aprofundados a partir de uma problematização inicial de como esses fatos e ideias são formulados no nível do senso comum. São também utilizados tabelas, gráficos, mapas, ilustrações e imagens que estimulam uma reflexão crítica do estudante sobre os temas discutidos. Ao final de cada capítulo, são listadas questões que possam sintetizar e sistematizar o assunto em debate, propostas de dinâmica para o trabalho em sala de aula, propostas de pesquisas e de outras leituras de livros, uma filmografia, uma relação de sites e a indicação de letras de músicas. Uma inovação que apresentamos nesta edição é a indicação de jogos que possam contribuir para a reflexão sobre o tema desenvolvido.</p>
+                    <p>Os conteúdos do livro têm como base as principais elaborações teóricas da Sociologia contemporânea, desde os autores considerados fundadores da disciplina até os nacionais e internacionais da atualidade.</p>
+                    <p>Desejamos construir com vocês, professor(a) e estudante, uma profunda e longa parceria, tendo como ponto de partida as discussões que apresentamos e propomos desenvolver neste livro, referentes às várias questões da realidade social que nos cerca.</p>
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            
+            <div class="info-box">
+                <div class="info-img">
+                    <img src="images/info-1.svg" alt="">
+                </div>
+                <div class="info-cont">
+                    Este livro tem o objetivo de desenvolver um conhecimento crítico e questionador em relação às noções do senso comum e incentivar a participação política e social consciente que permita envolver-se com o mundo ao seu redor, especialmente na realidade brasileira.
+                </div>
+            </div>
+            <div id="info-1" class="info-block"></div>
+            <div class="info-box">
+                <div class="info-img">
+                    <img src="images/info-2.svg" alt="">
+                </div>
+                <div class="info-cont">
+                    O livro aborda não apenas a Sociologia como ciência, mas também a influência de outras áreas do conhecimento na vida em sociedade e uma compreensão mais ampla dos temas abordados por meio do diálogo constante com outras disciplinas.
+                </div>
+            </div>
+            <div id="info-2" class="info-block"></div>
+            <div class="info-box">
+                <div class="info-img">
+                    <img src="images/info-3.svg" alt="">
+                </div>
+                <div class="info-cont">
+                    Utiliza exemplos do cotidiano para introduzir conceitos sociológico, apresentando informações de forma visual, como tabelas, gráficos e imagens, e ao final de cada capítulo, sugere pesquisas, atividades, leituras, sites e até jogos para aprofundar o tema.
+                </div>
+            </div>
+            <div id="info-3" class="info-block"></div>
+            
+        </div>
+
+       
+        
+           
+        
+            
+        
+        
+            
+
+        <script src="js/index.js"></script>
+       <div class="footer">
+        <div class="footer-conteiner">
+            <div class="footer-link">
+                <p id="footer-title">Mais SJSXXI</p>
+                <hr>
+                <a href="SecondPages/Sociologia para os jovens do sec XXI - Referencias.pdf" download="SecondPages/Sociologia para os jovens do sec XXI - Referencias.pdf">Bibliografia</a>
+                <a href="SecondPages/autores.html">Autores</a>
+            </div>
+    
+        </div>
+        <div id="copy">@copyright</div>
+        
+    </div>
+    </main>
+    
+</body>
+
+</html>
